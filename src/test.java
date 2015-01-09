@@ -12,27 +12,20 @@ public class test {
 		System.out.println(aList.toString());
 		
 		LinkedListInt lList = new LinkedListInt();
-		lList.add(15);
-		lList.add(15);
-		lList.add(99);
 		lList.add(1);
-		lList.add(77);
-		lList.add(12);
-		lList.add(99);
-		lList.add(1);
-		lList.add(111);
-		lList.add(111);
-		lList.add(111);
+		lList.add(2);
+		lList.add(3);
+		lList.add(4);
+		lList.add(5);
+		lList.add(6);
+		lList.add(7);
+		lList.add(8);
+		lList.add(9);
+		lList.add(10);
+		lList.add(11);
 		
 		System.out.println(lList.toString());
-		
-		
-		aList.removeAt(0);
-		aList.removeAt(2);
-		
-		System.out.println("Array after removing " +aList.toString());
-		
-		lList.deDuplicate1();
-		System.out.println("List after removing " +lList.toString());
+			
+		System.out.println(lList.getMiddleValue());
 	}
 }
