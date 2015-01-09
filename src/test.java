@@ -26,6 +26,6 @@ public class test {
 		
 		System.out.println(lList.toString());
 			
-		System.out.println(lList.getMiddleValue());
+		System.out.println(lList.getNtoLastValue(1));
 	}
 }

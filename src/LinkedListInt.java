@@ -153,6 +153,33 @@ public class LinkedListInt {
 		return middle;
 	}
 	
+	/**
+	 * Method which returns Node which is n places far from last.
+	 * @param n - integer, 
+	 * @return node
+	 */
+	public Node getNtoLastValue(int n) {
+		int size = 0;
+		Node current = head;
+		
+		while(current.getNext() != null){
+			current = current.getNext();
+			size ++;
+		}
+		
+		int index = size - n;
+		
+		current = head;
+		for(int i=0;i<index; i++)
+			current = current.getNext();
+			
+			
+		
+		
+	
+	
+		return current;
+	}
 	
 	
 	/**
