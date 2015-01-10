@@ -147,9 +147,7 @@ public class LinkedListInt {
 		
 		for ( int i=0; i<size/2; i++)
 			middle = middle.getNext();
-		
-		
-		
+				
 		return middle;
 	}
 	
@@ -168,18 +166,14 @@ public class LinkedListInt {
 		}
 		
 		int index = size - n;
-		
 		current = head;
 		for(int i=0;i<index; i++)
 			current = current.getNext();
-			
-			
-		
-		
-	
-	
+				
 		return current;
 	}
+	
+	
 	
 	
 	/**
